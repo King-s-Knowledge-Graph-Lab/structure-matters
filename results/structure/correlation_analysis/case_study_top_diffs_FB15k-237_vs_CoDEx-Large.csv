@@ -1,0 +1,6 @@
+comparison,metric,metric_name,value_1,value_2,absolute_diff,pct_diff
+FB15k-237 vs CoDEx-Large,M44_transitivity,Transitivity,0.0163975097824202,0.0007684545948523,0.015629055187567898,2033.8
+FB15k-237 vs CoDEx-Large,M5_r_to_e_ratio,Relation-to-Entity Ratio,0.0163391933815925,0.000885171453862,0.015454021927730498,1745.9
+FB15k-237 vs CoDEx-Large,M45_untyped_reciprocity,Reciprocity,0.3156055344247836,0.0284147295049102,0.2871908049198734,1010.7
+FB15k-237 vs CoDEx-Large,Effi_LP,Efficiency (MRR / Params),1.03,0.21,0.8200000000000001,390.5
+FB15k-237 vs CoDEx-Large,M2_num_relations,Number of Relations,237.0,69.0,168.0,243.5

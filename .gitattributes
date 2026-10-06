@@ -1,0 +1,3 @@
+# result files are stored byte-for-byte as the scripts write them (csv.writer uses CRLF)
+results/**/*.csv -text
+results/**/*.npy binary

@@ -1,0 +1,27 @@
+# Ablation (Section 5.5), CoDEx-Large without the learned aggregator (average of path embeddings).
+# Training command of the run of 2024-08-05, commit f68ebf8.
+# Machine settings are not part of the config; pass them on the command line, e.g. --device cuda --num_devices 1 --num_workers 8 --wandb_project <name>.
+log_dir: "{runs_root}/ablations/codex-large_no_aggregator"
+expname: codex-large_no_aggregator
+train_paths: "{data_root}/path_datasets/codex-large/train/"
+valid_paths: "{data_root}/path_datasets/codex-large/val/"
+test_paths: "{data_root}/path_datasets/codex-large/test/"
+max_ppt: 8
+batch_size: 4096
+nhead: 2
+num_encoder_layers: 2
+dim_feedforward: 256
+embedding_dim: 128
+num_negatives: 99
+monitor: valid_link_mrr
+patience: 5
+dropout: 0.1
+lrate: 1e-3
+val_num_negatives: 99
+ent_aggregation: avg
+lp_loss_fn: ce
+accumulate_gradient: 16
+label_smoothing: 0.01
+node_projector: dummy
+path_setup: "20_10"
+seed: 7

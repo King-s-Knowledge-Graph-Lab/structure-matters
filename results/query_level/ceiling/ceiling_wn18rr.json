@@ -1,0 +1,18 @@
+{
+ "dataset": "wn18rr",
+ "entities": 40559,
+ "relations": 11,
+ "entities_in_train": 40559,
+ "distinct_contexts": 3294,
+ "unique_context_fraction": 0.053724204245666804,
+ "largest_class": 5448,
+ "mean_class_size": 12.312993321190042,
+ "test_queries": 5848,
+ "queries_with_unique_target": 0.24127906976744187,
+ "median_k": 26.0,
+ "ceiling_mrr_random_tiebreak": 0.37605168981447035,
+ "ceiling_mrr_realistic_rank": 0.3372322264745456,
+ "ceiling_hits10": 0.5137845913575769,
+ "ceiling_mrr_tail": 0.43416423121717496,
+ "ceiling_mrr_head": 0.31793914841176557
+}

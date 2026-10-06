@@ -1,0 +1,18 @@
+{
+  "M37_num_connected_components": 12,
+  "M38_lcc_size": 123111,
+  "M38_lcc_fraction": 0.9997401395125992,
+  "M39_num_scc": 111006,
+  "M40_lscc_size": 7006,
+  "M40_lscc_fraction": 0.056893205460318494,
+  "M41_diameter": 9,
+  "M41_diameter_exact": false,
+  "M42_avg_shortest_path": 3.3568,
+  "M42_std_shortest_path": 1.054653383818589,
+  "M43_avg_clustering": 0.12598885293481046,
+  "M44_transitivity": 0.00036621048544490287,
+  "M45_untyped_reciprocity": 0.03523317022538553,
+  "M45_typed_reciprocity": 0.029637455516014235,
+  "M45_nx_reciprocity_crosscheck": 0.04648475152787521,
+  "M46_assortativity": -0.04748768152496279
+}

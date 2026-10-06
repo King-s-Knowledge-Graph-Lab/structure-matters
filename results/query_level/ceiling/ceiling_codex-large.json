@@ -1,0 +1,18 @@
+{
+ "dataset": "codex-large",
+ "entities": 77951,
+ "relations": 69,
+ "entities_in_train": 77951,
+ "distinct_contexts": 36233,
+ "unique_context_fraction": 0.37549229644263704,
+ "largest_class": 614,
+ "mean_class_size": 2.1513813374548065,
+ "test_queries": 61244,
+ "queries_with_unique_target": 0.6905002939063418,
+ "median_k": 1.0,
+ "ceiling_mrr_random_tiebreak": 0.8012112141009304,
+ "ceiling_mrr_realistic_rank": 0.7751424973114166,
+ "ceiling_hits10": 0.9040527279182011,
+ "ceiling_mrr_tail": 0.9168982030172798,
+ "ceiling_mrr_head": 0.6855242251845811
+}

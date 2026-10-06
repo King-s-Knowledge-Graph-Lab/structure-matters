@@ -1,0 +1,53 @@
+# Reported PathE results used by the structure analysis (analysis/structure/; Section 6, Appendices C-E).
+# The one place for these values: compute_metrics.py, generate_paper_outputs.py and correlation_analysis.py
+# read them from here. Keys and order as in the code they replace (order matters for the output columns).
+
+# per KG: link prediction (LP) and relation prediction (RP) metrics, efficiency (Effi) and parameters (millions)
+transductive:
+  FB15k-237:
+    LP_MRR: 0.216
+    LP_H10: 0.350
+    LP_H1: 0.146
+    RP_MRR: 0.972
+    RP_H10: 0.998
+    Effi_LP: 1.03
+    params_M_LP: 0.21
+    Effi_RP: 1.13
+    params_M_RP: 0.86
+  WN18RR:
+    LP_MRR: 0.069
+    LP_H10: 0.124
+    LP_H1: null
+    RP_MRR: 0.874
+    RP_H10: 0.999
+    Effi_LP: 0.10
+    params_M_LP: 0.67
+    Effi_RP: 17.48
+    params_M_RP: 0.05
+  CoDEx-Large:
+    LP_MRR: 0.144
+    LP_H10: 0.240
+    LP_H1: 0.100
+    RP_MRR: null
+    RP_H10: null
+    Effi_LP: 0.21
+    params_M_LP: 0.68
+  YAGO3-10:
+    LP_MRR: 0.060
+    LP_H10: 0.093
+    LP_H1: null
+    RP_MRR: null
+    RP_H10: null
+    Effi_LP: 0.25
+    params_M_LP: 0.24
+
+# inductive link prediction, Hits@10 per GraIL split (mean of eval seeds 0-4, results/inductive/test_hits.csv)
+inductive_H10:
+  FB15k-237_V1: 0.847
+  FB15k-237_V2: 0.961
+  FB15k-237_V3: 0.954
+  FB15k-237_V4: 0.959
+  WN18RR_V1: 0.576
+  WN18RR_V2: 0.594
+  WN18RR_V3: 0.651
+  WN18RR_V4: 0.562

@@ -1,0 +1,306 @@
+{
+  "methodology_note": {
+    "n_transductive": 4,
+    "n_inductive": 8,
+    "primary_method": "rank concordance (Kendall tau)",
+    "supplementary_methods": [
+      "Pearson r",
+      "Spearman rho",
+      "bootstrap CI",
+      "visual profiles"
+    ],
+    "limitation": "With n=4 transductive datasets, no correlation reaches p<0.05. Results are reported as effect sizes, not significance tests."
+  },
+  "strongest_correlations_transductive": [
+    {
+      "structural_metric": "M18_normalised_entropy",
+      "display_name": "Normalised Relation Entropy",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9187
+    },
+    {
+      "structural_metric": "M18_normalised_entropy",
+      "display_name": "Normalised Relation Entropy",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9269
+    },
+    {
+      "structural_metric": "M7_avg_total_degree",
+      "display_name": "Average Total Degree",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.965
+    },
+    {
+      "structural_metric": "M8_median_total",
+      "display_name": "Median Total Degree",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9775
+    },
+    {
+      "structural_metric": "M31_avg_paths",
+      "display_name": "Avg. Paths per Entity",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.8851
+    },
+    {
+      "structural_metric": "M31_avg_paths",
+      "display_name": "Avg. Paths per Entity",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9086
+    },
+    {
+      "structural_metric": "M43_avg_clustering",
+      "display_name": "Avg. Clustering Coefficient",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9377
+    },
+    {
+      "structural_metric": "M57_degree_entropy",
+      "display_name": "Degree Entropy",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)",
+      "kendall_tau": 1.0,
+      "spearman_rho": 1.0,
+      "pearson_r": 0.9037
+    },
+    {
+      "structural_metric": "M2_num_relations",
+      "display_name": "Number of Relations",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR",
+      "kendall_tau": 0.6667,
+      "spearman_rho": 0.8,
+      "pearson_r": 0.9347
+    },
+    {
+      "structural_metric": "M2_num_relations",
+      "display_name": "Number of Relations",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10",
+      "kendall_tau": 0.6667,
+      "spearman_rho": 0.8,
+      "pearson_r": 0.9179
+    }
+  ],
+  "perfect_rank_concordances": [
+    {
+      "structural_metric": "M6_t_to_e_ratio",
+      "display_name": "Triple-to-Entity Ratio",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)"
+    },
+    {
+      "structural_metric": "M7_avg_total_degree",
+      "display_name": "Average Total Degree",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)"
+    },
+    {
+      "structural_metric": "M8_median_total",
+      "display_name": "Median Total Degree",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)"
+    },
+    {
+      "structural_metric": "M18_normalised_entropy",
+      "display_name": "Normalised Relation Entropy",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR"
+    },
+    {
+      "structural_metric": "M18_normalised_entropy",
+      "display_name": "Normalised Relation Entropy",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10"
+    },
+    {
+      "structural_metric": "M31_avg_paths",
+      "display_name": "Avg. Paths per Entity",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR"
+    },
+    {
+      "structural_metric": "M31_avg_paths",
+      "display_name": "Avg. Paths per Entity",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10"
+    },
+    {
+      "structural_metric": "M43_avg_clustering",
+      "display_name": "Avg. Clustering Coefficient",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)"
+    },
+    {
+      "structural_metric": "M57_degree_entropy",
+      "display_name": "Degree Entropy",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)"
+    }
+  ],
+  "weakest_correlations": [
+    {
+      "structural_metric": "M20_top2_conc",
+      "display_name": "Top-2 Relation Concentration",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR",
+      "kendall_tau": -0.6667
+    },
+    {
+      "structural_metric": "M20_top2_conc",
+      "display_name": "Top-2 Relation Concentration",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10",
+      "kendall_tau": -0.6667
+    },
+    {
+      "structural_metric": "M20_top2_conc",
+      "display_name": "Top-2 Relation Concentration",
+      "performance_metric": "Effi_LP",
+      "performance_display_name": "Efficiency (MRR / Params)",
+      "kendall_tau": -0.6667
+    },
+    {
+      "structural_metric": "M13_low_deg_5",
+      "display_name": "Low-Degree Fraction (d \u2264 5)",
+      "performance_metric": "LP_MRR",
+      "performance_display_name": "Link Prediction MRR",
+      "kendall_tau": -0.6667
+    },
+    {
+      "structural_metric": "M13_low_deg_5",
+      "display_name": "Low-Degree Fraction (d \u2264 5)",
+      "performance_metric": "LP_H10",
+      "performance_display_name": "Link Prediction Hits@10",
+      "kendall_tau": -0.6667
+    }
+  ],
+  "case_study_explanations": {
+    "FB15k-237": {
+      "LP_MRR": 0.216,
+      "notable_differences": [
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Relation-to-Entity Ratio",
+          "pct_diff": 5924.6
+        },
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Number of Relations",
+          "pct_diff": 2054.5
+        },
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Unique Context Fraction",
+          "pct_diff": 1559.4
+        },
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Transitivity",
+          "pct_diff": 2033.8
+        },
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Relation-to-Entity Ratio",
+          "pct_diff": 1745.9
+        },
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Reciprocity",
+          "pct_diff": 1010.7
+        }
+      ]
+    },
+    "WN18RR": {
+      "LP_MRR": 0.069,
+      "notable_differences": [
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Relation-to-Entity Ratio",
+          "pct_diff": 5924.6
+        },
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Number of Relations",
+          "pct_diff": 2054.5
+        },
+        {
+          "comparison": "FB15k-237 vs WN18RR",
+          "metric_name": "Unique Context Fraction",
+          "pct_diff": 1559.4
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Unique Context Fraction",
+          "pct_diff": 598.9
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Training Triples",
+          "pct_diff": 534.8
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Number of Relations",
+          "pct_diff": 527.3
+        }
+      ]
+    },
+    "CoDEx-Large": {
+      "LP_MRR": 0.144,
+      "notable_differences": [
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Transitivity",
+          "pct_diff": 2033.8
+        },
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Relation-to-Entity Ratio",
+          "pct_diff": 1745.9
+        },
+        {
+          "comparison": "FB15k-237 vs CoDEx-Large",
+          "metric_name": "Reciprocity",
+          "pct_diff": 1010.7
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Unique Context Fraction",
+          "pct_diff": 598.9
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Training Triples",
+          "pct_diff": 534.8
+        },
+        {
+          "comparison": "CoDEx-Large vs WN18RR",
+          "metric_name": "Number of Relations",
+          "pct_diff": 527.3
+        }
+      ]
+    }
+  }
+}

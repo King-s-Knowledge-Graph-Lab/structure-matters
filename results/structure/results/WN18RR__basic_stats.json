@@ -1,0 +1,12 @@
+{
+  "M1_num_entities": 40559,
+  "M2_num_relations": 11,
+  "M3_num_train": 86835,
+  "M3_num_valid": 2824,
+  "M3_num_test": 2924,
+  "M3_num_total": 92583,
+  "M4_full_density": 4.798744705814055e-06,
+  "M4_simple_density": 8.734267814842193e-05,
+  "M5_relation_to_entity_ratio": 0.00027120984245173696,
+  "M6_triple_to_entity_ratio": 2.1409551517542345
+}

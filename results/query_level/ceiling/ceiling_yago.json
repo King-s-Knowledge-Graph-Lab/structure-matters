@@ -1,0 +1,18 @@
+{
+ "dataset": "yago",
+ "entities": 123143,
+ "relations": 37,
+ "entities_in_train": 123143,
+ "distinct_contexts": 24721,
+ "unique_context_fraction": 0.14800678885523336,
+ "largest_class": 4306,
+ "mean_class_size": 4.981311435621536,
+ "test_queries": 9964,
+ "queries_with_unique_target": 0.43887996788438377,
+ "median_k": 3.0,
+ "ceiling_mrr_random_tiebreak": 0.5502324369453301,
+ "ceiling_mrr_realistic_rank": 0.5189057428508018,
+ "ceiling_hits10": 0.6606796266033457,
+ "ceiling_mrr_tail": 0.8211693078648786,
+ "ceiling_mrr_head": 0.27929556602578165
+}

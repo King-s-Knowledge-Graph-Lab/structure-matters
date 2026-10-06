@@ -1,0 +1,11 @@
+{
+  "M47_mean_rel_avg_degree": 70.52320360016114,
+  "M47_std_rel_avg_degree": 57.585353570121605,
+  "M48_avg_offdiag_cooccurrence": 31.59078881498963,
+  "M48_frac_nonzero_offdiag": 0.32103268254308803,
+  "M49_cooccurrence_entropy": 11.312596351647256,
+  "M50_relation_graph_density": 0.32103268254308803,
+  "M51_mean_rel_recip": 0.2685282336056965,
+  "M51_std_rel_recip": 0.3521770981507293,
+  "M51_mean_rel_typed_recip": 0.09999575566352069
+}

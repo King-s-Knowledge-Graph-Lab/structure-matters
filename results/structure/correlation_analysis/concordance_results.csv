@@ -1,0 +1,103 @@
+structural_metric,structural_metric_name,performance_metric,performance_metric_name,kendall_tau,kendall_p,spearman_rho,spearman_p,n
+M2_num_relations,Number of Relations,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M2_num_relations,Number of Relations,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M2_num_relations,Number of Relations,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M5_r_to_e_ratio,Relation-to-Entity Ratio,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M5_r_to_e_ratio,Relation-to-Entity Ratio,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M5_r_to_e_ratio,Relation-to-Entity Ratio,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M6_t_to_e_ratio,Triple-to-Entity Ratio,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M6_t_to_e_ratio,Triple-to-Entity Ratio,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M6_t_to_e_ratio,Triple-to-Entity Ratio,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M7_avg_total_degree,Average Total Degree,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M7_avg_total_degree,Average Total Degree,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M7_avg_total_degree,Average Total Degree,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M8_median_total,Median Total Degree,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M8_median_total,Median Total Degree,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M8_median_total,Median Total Degree,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M10_skewness,Degree Skewness,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M10_skewness,Degree Skewness,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M10_skewness,Degree Skewness,Effi_LP,Efficiency (MRR / Params),-0.3333,0.75,-0.4,0.6,4
+M13_low_deg_1,Low-Degree Fraction (d ≤ 1),LP_MRR,Link Prediction MRR,0.3333,0.75,0.6,0.4,4
+M13_low_deg_1,Low-Degree Fraction (d ≤ 1),LP_H10,Link Prediction Hits@10,0.3333,0.75,0.6,0.4,4
+M13_low_deg_1,Low-Degree Fraction (d ≤ 1),Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M13_low_deg_2,Low-Degree Fraction (d ≤ 2),LP_MRR,Link Prediction MRR,0.3333,0.75,0.6,0.4,4
+M13_low_deg_2,Low-Degree Fraction (d ≤ 2),LP_H10,Link Prediction Hits@10,0.3333,0.75,0.6,0.4,4
+M13_low_deg_2,Low-Degree Fraction (d ≤ 2),Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M13_low_deg_5,Low-Degree Fraction (d ≤ 5),LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M13_low_deg_5,Low-Degree Fraction (d ≤ 5),LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M13_low_deg_5,Low-Degree Fraction (d ≤ 5),Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M17_relation_entropy,Relation Entropy,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M17_relation_entropy,Relation Entropy,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M17_relation_entropy,Relation Entropy,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M18_normalised_entropy,Normalised Relation Entropy,LP_MRR,Link Prediction MRR,1.0,0.0833,1.0,0.0,4
+M18_normalised_entropy,Normalised Relation Entropy,LP_H10,Link Prediction Hits@10,1.0,0.0833,1.0,0.0,4
+M18_normalised_entropy,Normalised Relation Entropy,Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M19_relation_gini,Relation Gini Coefficient,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M19_relation_gini,Relation Gini Coefficient,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M19_relation_gini,Relation Gini Coefficient,Effi_LP,Efficiency (MRR / Params),-0.3333,0.75,-0.4,0.6,4
+M20_top2_conc,Top-2 Relation Concentration,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M20_top2_conc,Top-2 Relation Concentration,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M20_top2_conc,Top-2 Relation Concentration,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M22_avg_rel_diversity,Avg. Relational Diversity,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M22_avg_rel_diversity,Avg. Relational Diversity,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M22_avg_rel_diversity,Avg. Relational Diversity,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M23_avg_norm_diversity,Avg. Normalised Diversity,LP_MRR,Link Prediction MRR,-0.6667,0.3333,-0.8,0.2,4
+M23_avg_norm_diversity,Avg. Normalised Diversity,LP_H10,Link Prediction Hits@10,-0.6667,0.3333,-0.8,0.2,4
+M23_avg_norm_diversity,Avg. Normalised Diversity,Effi_LP,Efficiency (MRR / Params),-0.6667,0.3333,-0.8,0.2,4
+M25_distinct_fraction,Distinct Context Fraction,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M25_distinct_fraction,Distinct Context Fraction,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M25_distinct_fraction,Distinct Context Fraction,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M25_unique_fraction,Unique Context Fraction,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M25_unique_fraction,Unique Context Fraction,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M25_unique_fraction,Unique Context Fraction,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M27_largest_class,Largest Equivalence Class,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M27_largest_class,Largest Equivalence Class,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M27_largest_class,Largest Equivalence Class,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M28_avg_class_size,Avg. Equivalence Class Size,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M28_avg_class_size,Avg. Equivalence Class Size,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M28_avg_class_size,Avg. Equivalence Class Size,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M30_largest_class_fraction,Largest Class Fraction,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M30_largest_class_fraction,Largest Class Fraction,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M30_largest_class_fraction,Largest Class Fraction,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M31_avg_paths,Avg. Paths per Entity,LP_MRR,Link Prediction MRR,1.0,0.0833,1.0,0.0,4
+M31_avg_paths,Avg. Paths per Entity,LP_H10,Link Prediction Hits@10,1.0,0.0833,1.0,0.0,4
+M31_avg_paths,Avg. Paths per Entity,Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M32_coverage_8,Path Coverage (≥ 8),LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M32_coverage_8,Path Coverage (≥ 8),LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M32_coverage_8,Path Coverage (≥ 8),Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M33_avg_path_length,Avg. Path Length,LP_MRR,Link Prediction MRR,0.0,1.0,0.0,1.0,4
+M33_avg_path_length,Avg. Path Length,LP_H10,Link Prediction Hits@10,0.0,1.0,0.0,1.0,4
+M33_avg_path_length,Avg. Path Length,Effi_LP,Efficiency (MRR / Params),0.0,1.0,-0.2,0.8,4
+M34_avg_path_diversity,Avg. Path Diversity,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M34_avg_path_diversity,Avg. Path Diversity,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M34_avg_path_diversity,Avg. Path Diversity,Effi_LP,Efficiency (MRR / Params),0.3333,0.75,0.4,0.6,4
+M35_avg_rel_in_paths,Avg. Relation Types in Paths,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M35_avg_rel_in_paths,Avg. Relation Types in Paths,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M35_avg_rel_in_paths,Avg. Relation Types in Paths,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M36_reach_5hop,5-Hop Reachability,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M36_reach_5hop,5-Hop Reachability,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M36_reach_5hop,5-Hop Reachability,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M38_lcc_fraction,LCC Fraction,LP_MRR,Link Prediction MRR,0.0,1.0,0.0,1.0,4
+M38_lcc_fraction,LCC Fraction,LP_H10,Link Prediction Hits@10,0.0,1.0,0.0,1.0,4
+M38_lcc_fraction,LCC Fraction,Effi_LP,Efficiency (MRR / Params),0.0,1.0,0.2,0.8,4
+M43_avg_clustering,Avg. Clustering Coefficient,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M43_avg_clustering,Avg. Clustering Coefficient,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M43_avg_clustering,Avg. Clustering Coefficient,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M44_transitivity,Transitivity,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M44_transitivity,Transitivity,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M44_transitivity,Transitivity,Effi_LP,Efficiency (MRR / Params),0.0,1.0,0.2,0.8,4
+M45_untyped_reciprocity,Reciprocity,LP_MRR,Link Prediction MRR,0.0,1.0,0.0,1.0,4
+M45_untyped_reciprocity,Reciprocity,LP_H10,Link Prediction Hits@10,0.0,1.0,0.0,1.0,4
+M45_untyped_reciprocity,Reciprocity,Effi_LP,Efficiency (MRR / Params),0.0,1.0,-0.2,0.8,4
+M50_rel_graph_density,Relation Graph Density,LP_MRR,Link Prediction MRR,-0.6667,0.3333,-0.8,0.2,4
+M50_rel_graph_density,Relation Graph Density,LP_H10,Link Prediction Hits@10,-0.6667,0.3333,-0.8,0.2,4
+M50_rel_graph_density,Relation Graph Density,Effi_LP,Efficiency (MRR / Params),-0.6667,0.3333,-0.8,0.2,4
+M57_degree_entropy,Degree Entropy,LP_MRR,Link Prediction MRR,0.3333,0.75,0.4,0.6,4
+M57_degree_entropy,Degree Entropy,LP_H10,Link Prediction Hits@10,0.3333,0.75,0.4,0.6,4
+M57_degree_entropy,Degree Entropy,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M62_metapaths_2_count,2-Step Meta-Path Count,LP_MRR,Link Prediction MRR,0.6667,0.3333,0.8,0.2,4
+M62_metapaths_2_count,2-Step Meta-Path Count,LP_H10,Link Prediction Hits@10,0.6667,0.3333,0.8,0.2,4
+M62_metapaths_2_count,2-Step Meta-Path Count,Effi_LP,Efficiency (MRR / Params),0.6667,0.3333,0.8,0.2,4
+M62_metapaths_2_ratio,2-Step Meta-Path Ratio,LP_MRR,Link Prediction MRR,-0.6667,0.3333,-0.8,0.2,4
+M62_metapaths_2_ratio,2-Step Meta-Path Ratio,LP_H10,Link Prediction Hits@10,-0.6667,0.3333,-0.8,0.2,4
+M62_metapaths_2_ratio,2-Step Meta-Path Ratio,Effi_LP,Efficiency (MRR / Params),-0.6667,0.3333,-0.8,0.2,4

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pathe"
+version = "1.0.0"
+description = "PathE: entity-agnostic knowledge graph embeddings from relational context and entity-relation paths"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+# The pinned environment is in requirements.txt (install it first).
+dependencies = []
+
+[project.scripts]
+pathe = "pathe.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,17 @@
+{
+  "M31_avg_paths": 7.819398900367366,
+  "M31_median_paths": 8.0,
+  "M31_std_paths": 1.043756519459766,
+  "M32_coverage_geq_1": 1.0,
+  "M32_coverage_geq_2": 0.9857245001109495,
+  "M32_coverage_geq_4": 0.9742104095268621,
+  "M32_coverage_geq_8": 0.9678246505091348,
+  "M33_avg_path_length": 12.995749605072726,
+  "M33_median_path_length": 14.0,
+  "M34_avg_path_diversity": 7.556078798786952,
+  "M35_avg_rel_types_in_paths": 5.469809413447077,
+  "M36_reachability_2hop": 0.0002,
+  "M36_reachability_3hop": 0.0003,
+  "M36_reachability_5hop": 0.002,
+  "M36_reachability_10hop": 0.0658
+}

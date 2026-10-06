@@ -1,0 +1,18 @@
+{
+ "dataset": "fb15k237",
+ "entities": 14505,
+ "relations": 237,
+ "entities_in_train": 14505,
+ "distinct_contexts": 13367,
+ "unique_context_fraction": 0.891485694588073,
+ "largest_class": 67,
+ "mean_class_size": 1.0851350340390513,
+ "test_queries": 40876,
+ "queries_with_unique_target": 0.9865691359232802,
+ "median_k": 1.0,
+ "ceiling_mrr_random_tiebreak": 0.9947890098811107,
+ "ceiling_mrr_realistic_rank": 0.9935211497994374,
+ "ceiling_hits10": 0.9992945301290825,
+ "ceiling_mrr_tail": 0.9955635758556908,
+ "ceiling_mrr_head": 0.9940144439065309
+}

@@ -1,0 +1,6 @@
+comparison,metric,metric_name,value_1,value_2,absolute_diff,pct_diff
+CoDEx-Large vs WN18RR,M25_unique_fraction,Unique Context Fraction,0.375492296442637,0.0537242042456668,0.32176809219697017,598.9
+CoDEx-Large vs WN18RR,M3_train_triples,Training Triples,551193.0,86835.0,464358.0,534.8
+CoDEx-Large vs WN18RR,M2_num_relations,Number of Relations,69.0,11.0,58.0,527.3
+CoDEx-Large vs WN18RR,M7_avg_total_degree,Average Total Degree,14.14203794691537,4.281910303508469,9.860127643406901,230.3
+CoDEx-Large vs WN18RR,M5_r_to_e_ratio,Relation-to-Entity Ratio,0.000885171453862,0.0002712098424517,0.0006139616114103,226.4

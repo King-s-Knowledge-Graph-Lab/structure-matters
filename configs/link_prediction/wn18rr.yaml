@@ -1,0 +1,34 @@
+# Transductive link prediction, WN18RR (Table confs_lp).
+# Training command of the released checkpoint link_prediction/wn18rr.ckpt (best validation MRR at epoch 60),
+# run of 2024-07-19 at commit UNCONFIRMED (not recorded).
+# Runs with the same arguments started on 2024-07-15/17 on the same cluster were at commit f68ebf8.
+# The run ended at the 48-hour time limit of the cluster (epoch 61), not by early stopping.
+# node_projector is not given: the default (GCN) applies.
+# Machine settings are not part of the config; pass them on the command line, e.g. --device cuda --num_devices 1 --num_workers 8 --wandb_project <name>.
+expname: wn18rr
+log_dir: "{runs_root}/link_prediction/wn18rr"
+train_paths: "{data_root}/path_datasets/wn18rr/train/"
+valid_paths: "{data_root}/path_datasets/wn18rr/val/"
+test_paths: "{data_root}/path_datasets/wn18rr/test/"
+path_setup: "20_10"
+max_ppt: 4
+batch_size: 2048
+num_negatives: 99
+val_num_negatives: 99
+nhead: 4
+num_encoder_layers: 2
+ent_aggregation: transformer
+num_agg_layers: 2
+num_agg_heads: 1
+context_heads: 0
+dim_feedforward: 256
+embedding_dim: 128
+lp_loss_fn: ce
+accumulate_gradient: 32
+monitor: valid_link_mrr
+patience: 10
+dropout: 0.1
+lrate: 0.001
+weight_decay: 0.0
+label_smoothing: 0.1
+seed: 46

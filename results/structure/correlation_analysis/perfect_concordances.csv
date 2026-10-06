@@ -1,0 +1,10 @@
+structural_metric,structural_metric_name,performance_metric,performance_metric_name,kendall_tau,kendall_p,spearman_rho,spearman_p,n
+M6_t_to_e_ratio,Triple-to-Entity Ratio,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M7_avg_total_degree,Average Total Degree,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M8_median_total,Median Total Degree,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M18_normalised_entropy,Normalised Relation Entropy,LP_MRR,Link Prediction MRR,1.0,0.0833,1.0,0.0,4
+M18_normalised_entropy,Normalised Relation Entropy,LP_H10,Link Prediction Hits@10,1.0,0.0833,1.0,0.0,4
+M31_avg_paths,Avg. Paths per Entity,LP_MRR,Link Prediction MRR,1.0,0.0833,1.0,0.0,4
+M31_avg_paths,Avg. Paths per Entity,LP_H10,Link Prediction Hits@10,1.0,0.0833,1.0,0.0,4
+M43_avg_clustering,Avg. Clustering Coefficient,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4
+M57_degree_entropy,Degree Entropy,Effi_LP,Efficiency (MRR / Params),1.0,0.0833,1.0,0.0,4

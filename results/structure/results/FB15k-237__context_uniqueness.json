@@ -1,0 +1,9 @@
+{
+  "M25_distinct_fraction": 0.9215442950706653,
+  "M25_unique_fraction": 0.891485694588073,
+  "M26_compression_ratio": 0.9215442950706653,
+  "M27_largest_class_size": 67,
+  "M28_avg_class_size": 1.0851350340390513,
+  "M29_class_entropy": 13.565862464719416,
+  "M30_largest_class_fraction": 0.004619096863150637
+}

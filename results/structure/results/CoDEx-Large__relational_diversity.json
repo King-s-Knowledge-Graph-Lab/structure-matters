@@ -1,0 +1,19 @@
+{
+  "M17_relation_entropy": 3.994499988499753,
+  "M18_normalised_relation_entropy": 0.6539222387932584,
+  "M19_relation_gini": 0.8070392345541293,
+  "M20_top1_concentration": 0.3067727638050556,
+  "M20_top2_concentration": 0.41610288955048413,
+  "M20_top3_concentration": 0.48137766626208967,
+  "M20_top5_concentration": 0.5987412757418908,
+  "M20_top10_concentration": 0.7778273671835455,
+  "M21_rare_relations_0.1pct": 27,
+  "M21_rare_relations_0.5pct": 43,
+  "M21_rare_relations_1.0pct": 48,
+  "M22_avg_rel_diversity": 4.801452194327205,
+  "M22_median_rel_diversity": 5.0,
+  "M22_std_rel_diversity": 2.139951071062807,
+  "M22_min_rel_diversity": 1,
+  "M22_max_rel_diversity": 21,
+  "M23_avg_normalised_diversity": 0.06958626368590151
+}

@@ -1,0 +1,22 @@
+metric_name,metric_key,direction,good_performance_range,poor_performance_range,separable,threshold_region
+Number of Relations,M2_num_relations,higher is better,"[69.0000, 237.0000]","[11.0000, 37.0000]",True,>37.0000
+Relation Entropy,M17_relation_entropy,higher is better,"[3.9945, 6.5527]","[2.2323, 2.8965]",True,>2.8965
+Normalised Relation Entropy,M18_normalised_entropy,higher is better,"[0.6539, 0.8306]","[0.5560, 0.6453]",True,>0.6453
+Relation Gini Coefficient,M19_relation_gini,lower is better,"[0.6793, 0.8070]","[0.6670, 0.8319]",False,overlapping
+Top-2 Relation Concentration,M20_top2_conc,lower is better,"[0.1061, 0.4161]","[0.6439, 0.7429]",True,<0.6439
+Average Total Degree,M7_avg_total_degree,higher is better,"[14.1420, 37.5202]","[4.2819, 17.5250]",False,overlapping
+Median Total Degree,M8_median_total,higher is better,"[7.0000, 22.0000]","[3.0000, 10.0000]",False,overlapping
+Low-Degree Fraction (d ≤ 5),M13_low_deg_5,lower is better,"[0.1111, 0.2540]","[0.2557, 0.8062]",True,<0.2557
+Unique Context Fraction,M25_unique_fraction,higher is better,"[0.3755, 0.8915]","[0.0537, 0.1480]",True,>0.1480
+Largest Equivalence Class,M27_largest_class,lower is better,"[67.0000, 614.0000]","[4306.0000, 5448.0000]",True,<4306.0000
+Avg. Equivalence Class Size,M28_avg_class_size,lower is better,"[1.0851, 2.1514]","[4.9813, 12.3130]",True,<4.9813
+Avg. Paths per Entity,M31_avg_paths,higher is better,"[7.8312, 7.8926]","[7.7442, 7.8194]",True,>7.8194
+Avg. Path Length,M33_avg_path_length,lower is better,"[3.2408, 8.6211]","[5.2792, 12.9957]",False,overlapping
+Avg. Path Diversity,M34_avg_path_diversity,lower is better,"[5.7705, 7.6005]","[5.9112, 7.5561]",False,overlapping
+LCC Fraction,M38_lcc_fraction,higher is better,"[0.9994, 0.9999]","[0.9971, 0.9997]",False,overlapping
+Avg. Clustering Coefficient,M43_avg_clustering,higher is better,"[0.0897, 0.1904]","[0.0618, 0.1260]",False,overlapping
+Relation Graph Density,M50_rel_graph_density,lower is better,"[0.3210, 0.5631]","[0.7252, 0.8727]",True,<0.7252
+2-Step Meta-Path Ratio,M62_metapaths_2_ratio,lower is better,"[0.1141, 0.2147]","[0.2820, 0.7851]",True,<0.2820
+Degree Entropy,M57_degree_entropy,higher is better,"[4.0466, 6.4186]","[3.1936, 5.0612]",False,overlapping
+H(Tail | Relation),M58_H_t_given_r,lower is better,"[6.9852, 7.0246]","[10.6602, 12.1269]",True,<10.6602
+"H(Relation | Head, Tail)",M60_H_r_given_ht,lower is better,"[0.0329, 0.1984]","[0.0025, 0.5312]",False,overlapping

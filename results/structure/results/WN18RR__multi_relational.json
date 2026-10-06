@@ -1,0 +1,12 @@
+{
+  "M61_avg_multiplicity": 1.0012568318612642,
+  "M61_max_multiplicity": 2,
+  "M61_fraction_multi": 0.0012568318612642113,
+  "M62_num_metapaths_2": 95,
+  "M62_metapath_2_ratio": 0.7851239669421488,
+  "M62_num_metapaths_3": 352,
+  "M62_metapath_3_ratio": 0.2644628099173554,
+  "M63_avg_symmetry": 0.31152152054744103,
+  "M63_weighted_symmetry": 0.3416249208268556,
+  "M64_num_composition_patterns": 95
+}

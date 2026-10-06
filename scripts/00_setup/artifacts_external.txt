@@ -1,0 +1,4 @@
+# md5 size root file url   (public LibKGE checkpoints, fetched from LibKGE by fetch_artifacts.sh)
+2b2ed335b790269f893f905b9350739b 31302188 checkpoint_root complex/fb15k-237-complex.pt http://web.informatik.uni-mannheim.de/pi1/iclr2020-models/fb15k-237-complex.pt
+6b4c3a339b8a50dce56b727c1e7440bd 42393364 checkpoint_root complex/wnrr-complex.pt http://web.informatik.uni-mannheim.de/pi1/iclr2020-models/wnrr-complex.pt
+6e71e7debf9414d658af350839e5969e 126794064 checkpoint_root complex/yago3-10-complex.pt http://web.informatik.uni-mannheim.de/pi1/libkge-models/yago3-10-complex.pt

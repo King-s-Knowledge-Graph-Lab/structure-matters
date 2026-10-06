@@ -1,0 +1,6 @@
+comparison,metric,metric_name,value_1,value_2,absolute_diff,pct_diff
+FB15k-237 vs WN18RR,M5_r_to_e_ratio,Relation-to-Entity Ratio,0.0163391933815925,0.0002712098424517,0.0160679835391408,5924.6
+FB15k-237 vs WN18RR,M2_num_relations,Number of Relations,237.0,11.0,226.0,2054.5
+FB15k-237 vs WN18RR,M25_unique_fraction,Unique Context Fraction,0.891485694588073,0.0537242042456668,0.8377614903424062,1559.4
+FB15k-237 vs WN18RR,Effi_LP,Efficiency (MRR / Params),1.03,0.1,0.93,930.0
+FB15k-237 vs WN18RR,M7_avg_total_degree,Average Total Degree,37.52016546018614,4.281910303508469,33.238255156677674,776.2

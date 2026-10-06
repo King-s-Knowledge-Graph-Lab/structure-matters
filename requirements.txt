@@ -1,0 +1,28 @@
+# Python 3.10. Direct dependencies of PathE, the analysis scripts and the structure pipeline,
+# pinned to the environment that reproduces the reported numbers.
+# The PyPI wheels of torch 2.1.1 are built for CUDA 12.1; torch-scatter must match them:
+--find-links https://data.pyg.org/whl/torch-2.1.0+cu121.html
+
+torch==2.1.1
+torchvision==0.16.1
+torch-scatter==2.1.2
+pytorch-lightning==1.9.0
+torchmetrics==1.2.1
+tensorboard==2.12.0
+pykeen==1.10.1
+
+numpy==1.24.1
+pandas==1.5.3
+scipy==1.10.0
+scikit-learn==1.2.1
+networkx==3.0
+igraph==0.10.4
+powerlaw==2.0.0
+joblib==1.2.0
+tqdm==4.64.1
+PyYAML==6.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Optional: W&B logging (--wandb_project).
+# wandb==0.15.8

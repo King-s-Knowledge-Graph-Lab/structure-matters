@@ -1,0 +1,7 @@
+# The only place with machine-dependent locations.
+# Relative paths are resolved from the repository root.
+data_root: artifacts/data              # path_datasets/<kg>/{train,val,test} (transductive), path_datasets/<kg>/v1..v4 (inductive)
+checkpoint_root: artifacts/checkpoints # link_prediction/<kg>.ckpt, complex/*.pt, ...
+runs_root: artifacts/runs              # training logs and checkpoints of new runs
+results_root: results                  # committed results (rank files, tables, figures)
+libkge_root: artifacts/libkge          # LibKGE checkout, its venv and runs (ComplEx baseline)

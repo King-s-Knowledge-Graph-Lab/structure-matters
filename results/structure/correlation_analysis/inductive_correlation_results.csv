@@ -1,0 +1,7 @@
+structural_metric,structural_metric_name,pearson_r,pearson_p,spearman_rho,spearman_p,kendall_tau,kendall_p,effect_size,n
+num_relations_inf,Num. Relations (Inference),0.9843,0.0,0.9222,0.0011,0.8365,0.0041,large,8
+num_entities_inf,Num. Entities (Inference),-0.4178,0.303,-0.2143,0.6103,-0.1429,0.7195,medium,8
+num_triples_inf,Num. Triples (Inference),0.1005,0.8128,0.0952,0.8225,0.1429,0.7195,small,8
+avg_degree_inf,Avg. Degree (Inference),0.7992,0.0173,0.7143,0.0465,0.5,0.1087,large,8
+distinct_context_frac_inf,Distinct Context Fraction (Inference),0.9666,0.0001,0.7619,0.028,0.5714,0.061,large,8
+unique_context_frac_inf,Unique Context Fraction (Inference),0.9749,0.0,0.7619,0.028,0.5714,0.061,large,8

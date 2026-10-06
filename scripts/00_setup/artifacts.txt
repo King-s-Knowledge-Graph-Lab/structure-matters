@@ -1,0 +1,10 @@
+# md5 size root package   (written by scripts/00_setup/pack_artifacts.sh)
+1f4598a006aba0f45975458f24e90677 71983006 checkpoint_root pathe-checkpoints.tar.gz
+f0ff1d74aeee420173d87a58fceae9fe 73430490 checkpoint_root complex-codex-l.tar.gz
+3269d876fe4f80623d63f406fe3ed8ff 91694917 data_root complex-entity-matrices.tar.gz
+160823512f147a7acd677f06b75b6248 14096066 data_root paths-fb15k237.tar.gz
+55d7ff5c65123b4618e9c56bc8a1f775 29150797 data_root paths-codex-large.tar.gz
+6a5cabafebd526e88e7f6519d781610b 13547584 data_root paths-wn18rr.tar.gz
+0b12ffbb8d529e7309e1a2a47aa39d74 49584806 data_root paths-yago.tar.gz
+379cbaacd2e5c6ba2db535b1105b9716 11492293 data_root paths-relation-prediction.tar.gz
+91a6cc36311906e2bcb71815671e777f 12136191 data_root paths-inductive.tar.gz

@@ -1,0 +1,391 @@
+{
+ "kg": [
+  {
+   "kg": "fb15k237",
+   "entities": 14505,
+   "median_entity_degree": 22.0,
+   "share_entities_deg_le5": 0.1110651499482937
+  },
+  {
+   "kg": "codex-large",
+   "entities": 77951,
+   "median_entity_degree": 7.0,
+   "share_entities_deg_le5": 0.2540057215430206
+  },
+  {
+   "kg": "wn18rr",
+   "entities": 40559,
+   "median_entity_degree": 3.0,
+   "share_entities_deg_le5": 0.8061589289676767
+  },
+  {
+   "kg": "yago",
+   "entities": 123143,
+   "median_entity_degree": 10.0,
+   "share_entities_deg_le5": 0.25569459896218216
+  }
+ ],
+ "per_kg": {
+  "fb15k237": {
+   "spearman": {
+    "deg": -0.619,
+    "types": 0.257,
+    "k": 0.056,
+    "anchor_deg": 0.238,
+    "relfreq": 0.103,
+    "k | deg": -0.071,
+    "types | deg": 0.386,
+    "deg | k,types": -0.657
+   },
+   "ols_beta": {
+    "deg": -0.674,
+    "types": 0.279,
+    "k": 0.01,
+    "anchor_deg": -0.036,
+    "relfreq": 0.179
+   },
+   "ols_r2": 0.515
+  },
+  "codex-large": {
+   "spearman": {
+    "deg": -0.741,
+    "types": 0.221,
+    "k": 0.433,
+    "anchor_deg": 0.57,
+    "relfreq": 0.068,
+    "k | deg": -0.107,
+    "types | deg": 0.316,
+    "deg | k,types": -0.656
+   },
+   "ols_beta": {
+    "deg": -0.763,
+    "types": 0.165,
+    "k": 0.065,
+    "anchor_deg": 0.06,
+    "relfreq": 0.228
+   },
+   "ols_r2": 0.687
+  },
+  "wn18rr": {
+   "spearman": {
+    "deg": -0.424,
+    "types": -0.371,
+    "k": 0.388,
+    "anchor_deg": 0.204,
+    "relfreq": 0.234,
+    "k | deg": 0.105,
+    "types | deg": -0.081,
+    "deg | k,types": -0.129
+   },
+   "ols_beta": {
+    "deg": -0.202,
+    "types": -0.105,
+    "k": 0.156,
+    "anchor_deg": 0.097,
+    "relfreq": 0.046
+   },
+   "ols_r2": 0.201
+  },
+  "yago": {
+   "spearman": {
+    "deg": -0.555,
+    "types": 0.176,
+    "k": 0.619,
+    "anchor_deg": 0.469,
+    "relfreq": 0.198,
+    "k | deg": 0.409,
+    "types | deg": 0.073,
+    "deg | k,types": -0.238
+   },
+   "ols_beta": {
+    "deg": -0.576,
+    "types": 0.014,
+    "k": 0.113,
+    "anchor_deg": 0.155,
+    "relfreq": 0.235
+   },
+   "ols_r2": 0.561
+  }
+ },
+ "by_degree_bin": [
+  {
+   "kg": "fb15k237",
+   "bin": ">100",
+   "n": 13637,
+   "mrr": 0.492,
+   "h10": 0.734,
+   "share": 0.3336
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "3-5",
+   "n": 457,
+   "mrr": 0.0569,
+   "h10": 0.1007,
+   "share": 0.0112
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "11-20",
+   "n": 3974,
+   "mrr": 0.0636,
+   "h10": 0.1185,
+   "share": 0.0972
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "6-10",
+   "n": 1413,
+   "mrr": 0.0718,
+   "h10": 0.1274,
+   "share": 0.0346
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "51-100",
+   "n": 7935,
+   "mrr": 0.1302,
+   "h10": 0.2576,
+   "share": 0.1941
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "21-50",
+   "n": 13300,
+   "mrr": 0.0652,
+   "h10": 0.1266,
+   "share": 0.3254
+  },
+  {
+   "kg": "fb15k237",
+   "bin": "1-2",
+   "n": 160,
+   "mrr": 0.0194,
+   "h10": 0.0375,
+   "share": 0.0039
+  },
+  {
+   "kg": "codex-large",
+   "bin": ">100",
+   "n": 21273,
+   "mrr": 0.386,
+   "h10": 0.6184,
+   "share": 0.3473
+  },
+  {
+   "kg": "codex-large",
+   "bin": "21-50",
+   "n": 4708,
+   "mrr": 0.0414,
+   "h10": 0.0898,
+   "share": 0.0769
+  },
+  {
+   "kg": "codex-large",
+   "bin": "6-10",
+   "n": 14611,
+   "mrr": 0.011,
+   "h10": 0.0214,
+   "share": 0.2386
+  },
+  {
+   "kg": "codex-large",
+   "bin": "3-5",
+   "n": 8603,
+   "mrr": 0.0115,
+   "h10": 0.0209,
+   "share": 0.1405
+  },
+  {
+   "kg": "codex-large",
+   "bin": "11-20",
+   "n": 9531,
+   "mrr": 0.0142,
+   "h10": 0.0264,
+   "share": 0.1556
+  },
+  {
+   "kg": "codex-large",
+   "bin": "51-100",
+   "n": 2289,
+   "mrr": 0.1027,
+   "h10": 0.2285,
+   "share": 0.0374
+  },
+  {
+   "kg": "codex-large",
+   "bin": "1-2",
+   "n": 229,
+   "mrr": 0.0067,
+   "h10": 0.0131,
+   "share": 0.0037
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "21-50",
+   "n": 339,
+   "mrr": 0.0756,
+   "h10": 0.1652,
+   "share": 0.058
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "1-2",
+   "n": 1633,
+   "mrr": 0.032,
+   "h10": 0.0484,
+   "share": 0.2792
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "3-5",
+   "n": 1565,
+   "mrr": 0.0513,
+   "h10": 0.1073,
+   "share": 0.2676
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "11-20",
+   "n": 750,
+   "mrr": 0.0805,
+   "h10": 0.152,
+   "share": 0.1282
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "6-10",
+   "n": 1200,
+   "mrr": 0.0759,
+   "h10": 0.1308,
+   "share": 0.2052
+  },
+  {
+   "kg": "wn18rr",
+   "bin": "51-100",
+   "n": 115,
+   "mrr": 0.104,
+   "h10": 0.2261,
+   "share": 0.0197
+  },
+  {
+   "kg": "wn18rr",
+   "bin": ">100",
+   "n": 246,
+   "mrr": 0.3306,
+   "h10": 0.5041,
+   "share": 0.0421
+  },
+  {
+   "kg": "yago",
+   "bin": ">100",
+   "n": 3150,
+   "mrr": 0.1696,
+   "h10": 0.2502,
+   "share": 0.3161
+  },
+  {
+   "kg": "yago",
+   "bin": "11-20",
+   "n": 2605,
+   "mrr": 0.0047,
+   "h10": 0.0069,
+   "share": 0.2614
+  },
+  {
+   "kg": "yago",
+   "bin": "1-2",
+   "n": 175,
+   "mrr": 0.001,
+   "h10": 0.0,
+   "share": 0.0176
+  },
+  {
+   "kg": "yago",
+   "bin": "6-10",
+   "n": 1448,
+   "mrr": 0.0072,
+   "h10": 0.009,
+   "share": 0.1453
+  },
+  {
+   "kg": "yago",
+   "bin": "21-50",
+   "n": 1584,
+   "mrr": 0.0144,
+   "h10": 0.0303,
+   "share": 0.159
+  },
+  {
+   "kg": "yago",
+   "bin": "51-100",
+   "n": 549,
+   "mrr": 0.0382,
+   "h10": 0.0965,
+   "share": 0.0551
+  },
+  {
+   "kg": "yago",
+   "bin": "3-5",
+   "n": 453,
+   "mrr": 0.0055,
+   "h10": 0.0088,
+   "share": 0.0455
+  }
+ ],
+ "standardised_mrr": {
+  "fb15k237": {
+   "fb15k237": 0.22,
+   "codex-large": 0.1641,
+   "wn18rr": 0.1662,
+   "yago": 0.0695
+  },
+  "codex-large": {
+   "fb15k237": 0.2158,
+   "codex-large": 0.1475,
+   "wn18rr": 0.1625,
+   "yago": 0.0647
+  },
+  "wn18rr": {
+   "fb15k237": 0.0706,
+   "codex-large": 0.0297,
+   "wn18rr": 0.0689,
+   "yago": 0.0126
+  },
+  "yago": {
+   "fb15k237": 0.203,
+   "codex-large": 0.1402,
+   "wn18rr": 0.1572,
+   "yago": 0.0606
+  }
+ },
+ "pooled": [
+  {
+   "model": "KG only",
+   "r2": 0.1012,
+   "gap_vs_fb15k237": {
+    "codex-large": 1.853,
+    "wn18rr": 2.659,
+    "yago": 2.82
+   }
+  },
+  {
+   "model": "KG + degree",
+   "r2": 0.5727,
+   "gap_vs_fb15k237": {
+    "codex-large": 1.617,
+    "wn18rr": 0.215,
+    "yago": 2.329
+   }
+  },
+  {
+   "model": "KG + degree, types, class size, anchor degree, rel. freq.",
+   "r2": 0.6488,
+   "gap_vs_fb15k237": {
+    "codex-large": 0.903,
+    "wn18rr": -0.045,
+    "yago": 1.017
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+structural_metric,structural_metric_name,performance_metric,performance_metric_name,pearson_r,ci_lower_95,ci_upper_95
+M2_num_relations,Number of Relations,Effi_LP,Efficiency (MRR / Params),0.9847,-1.0,1.0
+M20_top2_conc,Top-2 Relation Concentration,LP_MRR,Link Prediction MRR,-0.9798,-1.0,1.0
+M8_median_total,Median Total Degree,Effi_LP,Efficiency (MRR / Params),0.9775,0.9657,1.0
+M25_unique_fraction,Unique Context Fraction,LP_MRR,Link Prediction MRR,0.9712,-1.0,1.0
+M17_relation_entropy,Relation Entropy,LP_MRR,Link Prediction MRR,0.9665,-1.0,1.0
+M20_top2_conc,Top-2 Relation Concentration,LP_H10,Link Prediction Hits@10,-0.9658,-1.0,1.0
+M7_avg_total_degree,Average Total Degree,Effi_LP,Efficiency (MRR / Params),0.965,0.9541,1.0
+M25_unique_fraction,Unique Context Fraction,LP_H10,Link Prediction Hits@10,0.957,-1.0,1.0
+M50_rel_graph_density,Relation Graph Density,LP_MRR,Link Prediction MRR,-0.9524,-1.0,1.0
+M25_unique_fraction,Unique Context Fraction,Effi_LP,Efficiency (MRR / Params),0.9505,-1.0,1.0

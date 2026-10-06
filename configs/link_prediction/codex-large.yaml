@@ -1,0 +1,32 @@
+# Transductive link prediction, CoDEx-Large (Table confs_lp).
+# Training command of the released checkpoint link_prediction/codex-large.ckpt (best validation MRR at epoch 17),
+# run of 2024-07-25 at commit f68ebf8.
+# UNCONFIRMED: max_ppt 16 (8 paths per entity) follows Table confs_lp; the released checkpoint was trained
+# with max_ppt 8 (4 paths per entity) and reproduces the paper when evaluated with 8 paths per entity
+# (gate G1). Its exact training command is configs/ablations/codex-large_ppt8.yaml.
+# Machine settings are not part of the config; pass them on the command line, e.g. --device cuda --num_devices 1 --num_workers 8 --wandb_project <name>.
+log_dir: "{runs_root}/link_prediction/codex-large"
+expname: codex-large
+train_paths: "{data_root}/path_datasets/codex-large/train/"
+valid_paths: "{data_root}/path_datasets/codex-large/val/"
+test_paths: "{data_root}/path_datasets/codex-large/test/"
+max_ppt: 16
+batch_size: 4096
+nhead: 2
+num_encoder_layers: 2
+dim_feedforward: 256
+embedding_dim: 128
+num_negatives: 99
+monitor: valid_link_mrr
+patience: 5
+dropout: 0.1
+lrate: 1e-3
+val_num_negatives: 99
+ent_aggregation: transformer
+lp_loss_fn: ce
+accumulate_gradient: 16
+label_smoothing: 0.01
+node_projector: dummy
+path_setup: "20_10"
+num_agg_layers: 2
+seed: 7

@@ -1,0 +1,22 @@
+structural_metric_name,metric_rank,mrr_rank,matches_MRR_ranking,kendall_tau
+Number of Relations,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Relation Entropy,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Normalised Relation Entropy,"{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",True,1.0
+Relation Gini Coefficient,"{'FB15k-237': 2, 'WN18RR': 1, 'CoDEx-Large': 3, 'YAGO3-10': 4}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+Top-2 Relation Concentration,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Average Total Degree,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+Median Total Degree,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+Low-Degree Fraction (d ≤ 5),"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Unique Context Fraction,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Largest Equivalence Class,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Avg. Equivalence Class Size,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 2, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.6667
+Avg. Paths per Entity,"{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",True,1.0
+Avg. Path Length,"{'FB15k-237': 2, 'WN18RR': 1, 'CoDEx-Large': 4, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.0
+Avg. Path Diversity,"{'FB15k-237': 1, 'WN18RR': 2, 'CoDEx-Large': 4, 'YAGO3-10': 3}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+LCC Fraction,"{'FB15k-237': 3, 'WN18RR': 4, 'CoDEx-Large': 1, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.0
+Avg. Clustering Coefficient,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+Relation Graph Density,"{'FB15k-237': 4, 'WN18RR': 1, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,-0.6667
+2-Step Meta-Path Ratio,"{'FB15k-237': 4, 'WN18RR': 1, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,-0.6667
+Degree Entropy,"{'FB15k-237': 1, 'WN18RR': 4, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,0.3333
+H(Tail | Relation),"{'FB15k-237': 4, 'WN18RR': 1, 'CoDEx-Large': 3, 'YAGO3-10': 2}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,
+"H(Relation | Head, Tail)","{'FB15k-237': 2, 'WN18RR': 4, 'CoDEx-Large': 3, 'YAGO3-10': 1}","{'FB15k-237': 1, 'WN18RR': 3, 'CoDEx-Large': 2, 'YAGO3-10': 4}",False,
